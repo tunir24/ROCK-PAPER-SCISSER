@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+.button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+button{
+    background-color: cornflowerblue;
+    font-weight: 500; 
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 3px double red;
+    padding-left: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 30px;
+}
+body{
+margin-top: 30px;
+background-color: aliceblue;
+height: 80vmax;
+background: linear-gradient(45deg , rgb(247, 107, 107),rgb(247, 229, 32), rgb(212, 61, 89) ,rgb(33, 196, 233));
+overflow: hidden;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    margin-top: 40px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.img{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img:hover{
+cursor: pointer;
+opacity: 0.8;
+background-color: black;
+}
+h3{
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.UserScoreboard,.CompScoreboard{
+    text-align: center;
+}
+h3,h1{
+    text-align: center;
+}
+h1{
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: red;
+font-style: underline ;
+font-weight: bolder;
+background-color: yellow;
+border: 2px solid black ;
+border-radius: 15px;
+padding: 8px;
+}
+.score{
+    gap : 2rem;
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.winner{
+    border: 3px solid black;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-style: bold;
+    display: inline;
+    padding: 15px;
+    justify-content: center;
+    background-color: chartreuse;
+}
